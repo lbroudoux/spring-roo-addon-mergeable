@@ -4,7 +4,7 @@
     <groupId>com.github.lbroudoux.roo.addon</groupId>
     <artifactId>com.github.lbroudoux.roo.addon.mergeable</artifactId>
     <packaging>bundle</packaging>
-    <version>0.1.0.BUILD</version>
+    <version>0.1.1.BUILD-SNAPSHOT</version>
     <name>RooMergeable</name>
     <organization>
       <name>Laurent Broudoux</name>
