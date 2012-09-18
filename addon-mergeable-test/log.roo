@@ -1,0 +1,24 @@
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-09-18 10:34:35
+project --topLevelPackage com.github.lbroudoux.roo.addon.mergeable --projectName addon-mergeable-test --java 6 --packaging JAR
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-09-18 10:34:37
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-09-18 10:34:51
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-09-18 11:09:25
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-09-18 13:28:06
+entity jpa --class ~.domain.Tweet
+test integration
+osgi ps
+osgi start --url file:///home/laurent/dev/repository/com/github/lbroudoux/roo/addon/com.github.lbroudoux.roo.addon.mergeable/0.1.0.BUILD-SNAPSHOT/com.github.lbroudoux.roo.addon.mergeable-0.1.0.BUILD-SNAPSHOT.jar
+osgi ps
+mergeable setup
+mergeable add --type ~.domain.Tweet
+osgi update --bundleSymbolicName com.github.lbroudoux.roo.addon.mergeable
+osgi update --bundleSymbolicName com.github.lbroudoux.roo.addon.mergeable
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-09-18 14:56:41
+osgi update --bundleSymbolicName com.github.lbroudoux.roo.addon.mergeable
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-09-18 14:58:08
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-09-18 17:01:24
+osgi update --bundleSymbolicName com.github.lbroudoux.roo.addon.mergeable
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-09-18 17:14:51
+mergeable setup
+mergeable add --type ~.domain.Tweet
